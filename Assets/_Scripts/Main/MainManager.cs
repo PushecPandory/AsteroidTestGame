@@ -11,7 +11,7 @@ namespace TestGame.Main
 		{
 			DontDestroyOnLoad(this.gameObject);
 			BinFileIO = this.GetComponent<BinFileIO>();
-			Cursor.visible = false;
+			Cursor.visible = true;
 		}
 
 		public void ChangeSceneTo(string sceneName)
