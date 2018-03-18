@@ -31,7 +31,7 @@ namespace TestGame.GameScene
 			SetDesignDataSettings();
 
 			#if UNITY_EDITOR
-			PoolController.Dispatcher.AddHandler(EventNames.UPDATE_PLAYER_DESIGN_DATA, SetDesignDataSettings);
+			PoolController.Dispatcher.AddHandler(EventNames.UPDATE_ASTEROIDS_DESIGN_DATA, SetDesignDataSettings);
 			#endif
 		}
 
@@ -42,7 +42,7 @@ namespace TestGame.GameScene
 				PoolController.Dispatcher.RemoveHandler(EventNames.DISABLE_ACTIVE_ASTEROIDS, OnDisableActiveAsteroids);
 
 				#if UNITY_EDITOR
-				PoolController.Dispatcher.RemoveHandler(EventNames.UPDATE_PLAYER_DESIGN_DATA, SetDesignDataSettings);
+				PoolController.Dispatcher.RemoveHandler(EventNames.UPDATE_ASTEROIDS_DESIGN_DATA, SetDesignDataSettings);
 				#endif
 			}
 			catch (NullReferenceException ex)
