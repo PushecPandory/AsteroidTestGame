@@ -52,6 +52,7 @@ namespace TestGame.GameScene
 		public override void Init()
 		{
 			base.Init();
+			Cursor.visible = false;
 			_mainManager = MainManager.Instance;
 			Dispatcher = new Dispatcher();
 

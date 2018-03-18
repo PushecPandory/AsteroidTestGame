@@ -10,8 +10,7 @@ namespace TestGame.Main
 		public override void Init()
 		{
 			DontDestroyOnLoad(this.gameObject);
-			BinFileIO = this.GetComponent<BinFileIO>();
-			Cursor.visible = true;
+			BinFileIO = this.GetComponent<BinFileIO>();			
 		}
 
 		public void ChangeSceneTo(string sceneName)

@@ -17,6 +17,7 @@ namespace TestGame.MenuScene
 		public override void Init()
 		{
 			base.Init();
+			Cursor.visible = true;
 			_mainManager = MainManager.Instance;
 			Dispatcher = new Dispatcher();
 			_UIController.Init(this);

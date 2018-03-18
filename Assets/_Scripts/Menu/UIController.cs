@@ -16,14 +16,7 @@ namespace TestGame.MenuScene
 		{
 			base.Init(sceneManager);
 
-			SelectButtonOnShow();
 			LoadHighScoreFromFile();
-		}
-
-		private void SelectButtonOnShow()
-		{
-			EventSystem.current.SetSelectedGameObject(null);
-			_selectOnStartButton.GetComponent<Button>().Select();
 		}
 
 		public void OnPlayButton()
