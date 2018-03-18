@@ -69,6 +69,7 @@ namespace TestGame.GameScene
 		public void OnEnableSummaryPanel(object obj)
 		{
 			_summaryPanel.SetActive(true);
+            Cursor.visible = true;
 			SelectButtonOnShow();
 		}
 
