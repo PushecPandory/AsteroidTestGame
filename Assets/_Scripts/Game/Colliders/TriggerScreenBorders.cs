@@ -1,8 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using TestGame.Main;
-using UnityEngine.Assertions;
+﻿using UnityEngine;
 
 namespace TestGame
 {

@@ -1,7 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using TestGame.Main;
+﻿using UnityEngine;
 using System;
 
 namespace TestGame.GameScene

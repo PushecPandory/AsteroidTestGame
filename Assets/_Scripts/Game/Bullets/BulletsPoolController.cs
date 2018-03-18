@@ -1,9 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.Assertions;
-
-namespace TestGame.GameScene
+﻿namespace TestGame.GameScene
 {
 	public class BulletsPoolController : GameObjectsPoolContoller
 	{

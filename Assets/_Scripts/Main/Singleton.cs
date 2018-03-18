@@ -1,11 +1,9 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 namespace TestGame.Main
 {
     /// <summary>
-	/// CoreSingleton is a base class for core systems which are managing scenes (should be one per scene) and for MainManager (which is persistent - not destroyed on load).
+    /// CoreSingleton is a base class for core systems which are managing scenes (should be one per scene) and for MainManager (which is persistent - not destroyed on load).
     /// Provides static accessor "Instance", Init on Awake and Exit on OnDestroy.
     /// </summary>
     /// <typeparam name="T"></typeparam>
@@ -24,7 +22,7 @@ namespace TestGame.Main
                 {
                     if (_instance == null)
                     {
-						MakeThisSingletonAndInit();
+                        MakeThisSingletonAndInit();
                     }
 
                     return _instance;
@@ -50,13 +48,13 @@ namespace TestGame.Main
         }
 
         public virtual void Init()
-		{
-			//to override
+        {
+            //to override
         }
 
         public virtual void Exit()
         {
-			//to override
+            //to override
         }
 
         protected void Awake()
