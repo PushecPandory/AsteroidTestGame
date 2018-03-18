@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efeb5b8555fbc75488e09e2ad45ccb9f, type: 3}
+  m_Name: DesignDataGameSettings_ver_1.1
+  m_EditorClassIdentifier: 
+  PlayerRotationSpeed: 300
+  PlayerMovingAcceleration: 5
+  PlayerMaxMovingSpeed: 3
+  PlayerLinearDrag: 2
+  ReloadingTime: 0.2
+  BulletLivingTime: 3
+  BulletLinearSpeed: 6
+  SpawnerRotationSpeed: 30
+  MinTimeToSpawnNextAsteroid: 1
+  MaxTimeToSpawnNextAsteroid: 3
+  MinLinearSpeed: 1
+  MaxLinearSpeed: 3
+  MinAngularSpeed: 90
+  MaxAngularSpeed: 180
+  LifesOnGameStart: 3
+  TimeGapOnGameStart: 1
+  TimeGapBetweenRounds: 2
+  ScoreForAsteroid: 10
